@@ -9,9 +9,9 @@ window.title = ("Tk")
 window.geometry("450x25")
 window.attributes("-topmost",True)
 
-entry1 = tk.Entry(window,text="Idk what this text is for",width = 20)
-entry2 = tk.Entry(window,text="Idk what this text is for",width = 20)
-entry3 = tk.Entry(window,text="Idk what this text is for",width = 25)
+entry1 = tk.Entry(window,text="",width = 20)
+entry2 = tk.Entry(window,text="",width = 20)
+entry3 = tk.Entry(window,text="",width = 25)
 
 label1 = tk.Label(window, text="x")
 label2 = tk.Label(window, text="=")
